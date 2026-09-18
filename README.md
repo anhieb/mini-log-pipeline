@@ -64,16 +64,17 @@ docker compose --profile full up -d
 
 ## Project Structure
 
+```
 mini-log-pipeline/
-├── docker-compose.yml # Elasticsearch, Kibana, Filebeat
-├── filebeat.yml # Filebeat configuration
+├── docker-compose.yml    # Elasticsearch, Kibana, Filebeat
+├── filebeat.yml          # Filebeat configuration
 ├── src/
-│ └── log_generator.py # Generates security events
+│   └── log_generator.py  # Generates security events
 ├── logs/
-│ └── app.log # Generated log file (auto-created)
+│   └── app.log           # Generated log file (auto-created)
 └── docs/
-└── dashboard.png # Kibana dashboard screenshot
-
+    └── dashboard.png     # Kibana dashboard screenshot
+```
 
 ## Key Concepts Demonstrated
 
