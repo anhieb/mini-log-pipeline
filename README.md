@@ -34,11 +34,22 @@ Elasticsearch (Docker) ──► Kibana Dashboard (localhost:5601)
 | Dashboard      | Kibana                | 8.13.0  |
 | Container      | Docker + Compose      | latest  |
 
-## Dashboard
+## Screenshots
 
-![Security Overview Dashboard](docs/dashboard.png)
+### Log Generator
+![Log Generator](docs/screenshot_log_generator.png)
 
-*Kibana dashboard showing event types, top attacker IPs, and severity distribution*
+*Python script generating realistic security events every 2 seconds*
+
+### Alert Engine
+![Alert Engine](docs/screenshot_alert_engine.png)
+
+*Automatic brute-force detection – alerts triggered when threshold exceeded*
+
+### Kibana Dashboard
+![Kibana Dashboard](docs/screenshot_dashboard.png)
+
+*Full dashboard view with event types, top attacker IPs, and severity distribution*
 
 ## Quick Start
 
