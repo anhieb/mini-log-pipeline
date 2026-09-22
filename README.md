@@ -2,6 +2,7 @@
 
 A local Security Analytics Pipeline for detecting and visualizing brute-force attacks.
 Built as a portfolio project for a Big Data / Security & Operations Analytics trainee application.
+With the help of Claude.ai.
 
 ## What it does
 
